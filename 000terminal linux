@@ -1,0 +1,21 @@
+### CRIAR ACESSO WEB PARA A PASTA VIA TERMINAL NO LINUX
+python3 -m http.server 8000
+
+### VERIFICAR DETALHES DO APLICATIVO
+aapt dump badging seu_arquivo.apk | head -n 5
+
+### INSTALAR APKS VIA TERMINAL
+
+adb devices
+
+adb install Anydesk.apk
+adb install Anydesk-Plugin.apk
+adb install Ingrid-7.0.9.apk
+adb install gpmgs_3_102_353.apk
+adb install TelegramX.apk
+adb install WhatsApp.apk
+adb install SIGA.apk
+adb install CheckListFacil.apk
+adb install SovisGPSService.apk
+adb install OsmAnd+_Premium_v5.2.13.apk
+adb install Timemark_Premium_v4.1.25.0.apk
